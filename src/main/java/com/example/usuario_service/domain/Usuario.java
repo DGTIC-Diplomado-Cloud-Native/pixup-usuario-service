@@ -1,8 +1,5 @@
 package com.example.usuario_service.domain;
 
-import java.util.Collection;
-import java.util.LinkedHashSet;
-
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -26,6 +23,6 @@ public class Usuario {
 	@NotBlank(message="Email no puede ser blanco")
 	private String email;
 	private String rfc;
-	private Collection<Domicilio> domicilios = new LinkedHashSet<>();
+	private Domicilio domicilio;
 
 }

@@ -20,7 +20,7 @@ import jakarta.validation.constraints.NotNull;
 import com.example.usuario_service.domain.Usuario;
 import com.example.usuario_service.dto.RegistroUsuarioRequest;
 
-@RequestMapping(path="api/usuarios", produces="application/json")
+@RequestMapping(path="usuarios", produces="application/json")
 @CrossOrigin(origins="*")
 @Tag(name="usuario", description="API del Recurso Usuario")
 public interface UsuarioApi {

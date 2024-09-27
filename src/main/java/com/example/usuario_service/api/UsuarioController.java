@@ -17,7 +17,7 @@ public class UsuarioController implements UsuarioApi {
 	public Usuario registrarUsuario(
 			RegistroUsuarioRequest request) {
 		return usuarioService.registrarUsuario(
-			request.getUsuario(), request.getDomicilio());
+			request.getUsuario());
 	}
 
 }

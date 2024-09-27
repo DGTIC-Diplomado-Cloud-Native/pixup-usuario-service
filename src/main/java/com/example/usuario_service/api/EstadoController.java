@@ -22,7 +22,7 @@ import com.example.usuario_service.repository.EstadoRepository;
 import com.example.usuario_service.service.EstadoService;
 
 @RestController
-@RequestMapping(path="api/estados", produces="application/json")
+@RequestMapping(path="estados", produces="application/json")
 @CrossOrigin(origins="*")
 public class EstadoController {
 	

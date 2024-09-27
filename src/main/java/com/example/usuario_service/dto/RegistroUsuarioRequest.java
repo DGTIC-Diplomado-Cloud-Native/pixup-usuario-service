@@ -12,12 +12,7 @@ import com.example.usuario_service.domain.Usuario;
 @Data
 @NoArgsConstructor
 public class RegistroUsuarioRequest {
-	
 	@NotNull
 	@Valid
 	private Usuario usuario;
-	@NotNull
-	@Valid
-	private Domicilio domicilio;
-
 }
